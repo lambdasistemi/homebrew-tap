@@ -1,9 +1,9 @@
 class TxGraph < Formula
   desc "Emit Conway transactions and operator-entity overlays as RDF"
   homepage "https://github.com/lambdasistemi/cardano-tx-tools"
-  url "https://github.com/lambdasistemi/cardano-tx-tools/releases/download/v0.2.1.0/tx-graph-0.2.1.0-aarch64-darwin.tar.gz"
-  sha256 "74f06c76a0c6f4da8639df17a2dc3c63859b609ed1dc2fd46de78385d11fcbf7"
-  version "0.2.1.0"
+  url "https://github.com/lambdasistemi/cardano-tx-tools/releases/download/v0.2.2.0/tx-graph-0.2.2.0-aarch64-darwin.tar.gz"
+  sha256 "c61423b422413b6ff8756f9bea14ef341cc582918518e5336ed6a069a568f5d5"
+  version "0.2.2.0"
 
 
   def install

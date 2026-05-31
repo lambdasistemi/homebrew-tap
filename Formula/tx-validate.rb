@@ -1,9 +1,9 @@
 class TxValidate < Formula
   desc "Conway Phase-1 pre-flight against a local cardano-node"
   homepage "https://github.com/lambdasistemi/cardano-tx-tools"
-  url "https://github.com/lambdasistemi/cardano-tx-tools/releases/download/v0.2.2.0/tx-validate-0.2.2.0-aarch64-darwin.tar.gz"
-  sha256 "7c3323aaf25fae5ea318b31cfb7715c6dfb7b30862394b13d4d6390c3851c56f"
-  version "0.2.2.0"
+  url "https://github.com/lambdasistemi/cardano-tx-tools/releases/download/v0.2.3.0/tx-validate-0.2.3.0-aarch64-darwin.tar.gz"
+  sha256 "93bfeed690a1d72fc242a35cf2d4d8ba65a176e577516437d6c60ab5f6de83a7"
+  version "0.2.3.0"
 
 
   def install

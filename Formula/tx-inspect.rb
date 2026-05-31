@@ -1,9 +1,9 @@
 class TxInspect < Formula
   desc "Render Conway transactions as structured, human-readable reports"
   homepage "https://github.com/lambdasistemi/cardano-tx-tools"
-  url "https://github.com/lambdasistemi/cardano-tx-tools/releases/download/v0.2.2.0/tx-inspect-0.2.2.0-aarch64-darwin.tar.gz"
-  sha256 "9c6c623de1d27026599456d222579e1c4d0a1508d9df50ccc4c35989da6987bb"
-  version "0.2.2.0"
+  url "https://github.com/lambdasistemi/cardano-tx-tools/releases/download/v0.2.3.0/tx-inspect-0.2.3.0-aarch64-darwin.tar.gz"
+  sha256 "436a78602f1eb5a75eb02f86339006e0f909e47b05717af0340d76283d018ece"
+  version "0.2.3.0"
 
 
   def install

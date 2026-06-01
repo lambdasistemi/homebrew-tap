@@ -1,9 +1,9 @@
 class AmaruTreasuryTx < Formula
   desc "Build unsigned Amaru treasury transactions (disburse, swap, withdraw)"
   homepage "https://github.com/lambdasistemi/amaru-treasury-tx"
-  url "https://github.com/lambdasistemi/amaru-treasury-tx/releases/download/v0.2.16.0/amaru-treasury-tx-0.2.16.0-aarch64-darwin.tar.gz"
-  sha256 "a3c9922e0c566b5e5809202a96e249ffdfdb4cd4bf7087499fcc3cb3264b3b4c"
-  version "0.2.16.0"
+  url "https://github.com/lambdasistemi/amaru-treasury-tx/releases/download/v0.2.17.0/amaru-treasury-tx-0.2.17.0-aarch64-darwin.tar.gz"
+  sha256 "4fa998f335dd0a7b1a260a98009699e837ab5e51bd8c5d5e11920d568fb5b544"
+  version "0.2.17.0"
 
 
   def install

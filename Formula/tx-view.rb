@@ -1,9 +1,9 @@
 class TxView < Formula
   desc "Project canonical Turtle graphs through packaged SPARQL views"
   homepage "https://github.com/lambdasistemi/cardano-ledger-rdf"
-  url "https://github.com/lambdasistemi/cardano-ledger-rdf/releases/download/v0.3.0.0/tx-view-0.3.0.0-aarch64-darwin.tar.gz"
-  sha256 "bc57389f5ad966cbfdd1a64b42f5b4f36afb159dfa72bd01d0ceb1c02977d3b2"
-  version "0.3.0.0"
+  url "https://github.com/lambdasistemi/cardano-ledger-rdf/releases/download/v0.4.0.0/tx-view-0.4.0.0-aarch64-darwin.tar.gz"
+  sha256 "dc6d64e93b3a4a59442b54f8c4360c70fa92b0a6a1d4baa9f7975282373c3575"
+  version "0.4.0.0"
 
 
   def install

@@ -1,9 +1,9 @@
 class CqRdf < Formula
   desc "Cardano RDF pipeline primitives"
   homepage "https://github.com/lambdasistemi/cardano-ledger-rdf"
-  url "https://github.com/lambdasistemi/cardano-ledger-rdf/releases/download/v0.3.0.0/cq-rdf-0.3.0.0-aarch64-darwin.tar.gz"
-  sha256 "f46f39ff2f02ce49eabb05ad4e744365f8a5bab58f347abc6abf35123585f9b7"
-  version "0.3.0.0"
+  url "https://github.com/lambdasistemi/cardano-ledger-rdf/releases/download/v0.4.0.0/cq-rdf-0.4.0.0-aarch64-darwin.tar.gz"
+  sha256 "0abf62fd66bafdb5b44c06afac4a76db303defbef3d2c45b67f26a6c7a20d974"
+  version "0.4.0.0"
 
 
   def install

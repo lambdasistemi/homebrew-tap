@@ -1,9 +1,9 @@
 class MoogOracle < Formula
   desc "Moog oracle service for Antithesis test validation"
   homepage "https://github.com/cardano-foundation/moog"
-  url "https://github.com/cardano-foundation/moog/releases/download/v0.5.1.4/moog-oracle-0.5.1.4-aarch64-darwin.tar.gz"
-  sha256 "7eb90b2a43c75885928b1988e55a3c5b72f42c8dbf08cbcb890d53cf19e2df1b"
-  version "0.5.1.4"
+  url "https://github.com/cardano-foundation/moog/releases/download/v0.5.1.5/moog-oracle-0.5.1.5-aarch64-darwin.tar.gz"
+  sha256 "30c01b3d12bd2ea804de0e330ee7ac05f87a4d909712f7a55892b8058c67a7f8"
+  version "0.5.1.5"
 
 
   def install

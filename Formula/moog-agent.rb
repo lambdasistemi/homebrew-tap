@@ -1,9 +1,9 @@
 class MoogAgent < Formula
   desc "Moog agent service for Antithesis result publication"
   homepage "https://github.com/cardano-foundation/moog"
-  url "https://github.com/cardano-foundation/moog/releases/download/v0.5.1.4/moog-agent-0.5.1.4-aarch64-darwin.tar.gz"
-  sha256 "60f09c2f1fa04b6a83011d416b95c7b436a9ff2d3b3e2e8ee765c2c6081ed2d8"
-  version "0.5.1.4"
+  url "https://github.com/cardano-foundation/moog/releases/download/v0.5.1.5/moog-agent-0.5.1.5-aarch64-darwin.tar.gz"
+  sha256 "c32e28c5bf0ae748026ee13d2c190de660e7a00c08d29f76bc47be7873bed817"
+  version "0.5.1.5"
 
 
   def install

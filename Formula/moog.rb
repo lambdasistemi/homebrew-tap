@@ -1,9 +1,9 @@
 class Moog < Formula
   desc "CLI to administer Antithesis test execution through Cardano"
   homepage "https://github.com/cardano-foundation/moog"
-  url "https://github.com/cardano-foundation/moog/releases/download/v2.0.0/moog-2.0.0-aarch64-darwin.tar.gz"
-  sha256 "cd0e087f3d951812b81f14dae77ba743ce281e496e9d7cb49e2f2233328ef586"
-  version "2.0.0"
+  url "https://github.com/cardano-foundation/moog/releases/download/v2.0.1/moog-2.0.1-aarch64-darwin.tar.gz"
+  sha256 "13f1ae1af79402df3d4d368cd6a6164f3cf110718b88aaff1b2aa70789a702b3"
+  version "2.0.1"
 
 
   def install

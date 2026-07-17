@@ -1,9 +1,9 @@
 class AgentDaemon < Formula
   desc "Deprecated compatibility route; install tmux-ws instead"
   homepage "https://github.com/lambdasistemi/tmux-ws"
-  url "https://github.com/lambdasistemi/tmux-ws/releases/download/v0.5.1/tmux-ws-0.5.1-aarch64-darwin.tar.gz"
-  sha256 "f2f9c3270fc38a0b082ae97676b79b456f543c5e61b3b1576fda5f6aee56625d"
-  version "0.5.1"
+  url "https://github.com/lambdasistemi/tmux-ws/releases/download/v0.5.2/tmux-ws-0.5.2-aarch64-darwin.tar.gz"
+  sha256 "dd468cd7272318e59cb753b480e2e1c99e23f57e425b8bdc45ece4c6ebb640fc"
+  version "0.5.2"
   depends_on "tmux-ws"
 
   def install

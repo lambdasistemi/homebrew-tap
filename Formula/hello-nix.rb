@@ -2,7 +2,7 @@ class HelloNix < Formula
   desc "Hello world built from nixpkgs (test)"
   homepage "https://github.com/lambdasistemi/cachix-warmup"
   url "https://github.com/lambdasistemi/cachix-warmup/releases/download/hello-test-v1/hello-aarch64-darwin.tar.gz"
-  sha256 "9f7e9d303ca9ec2c62a8f0bdad0593d32d94846f2d24f162a83055758d2140e8"
+  sha256 "668982df773ef3170e94c2ab98ea13cd90bacd4975755d99b814f2aa9d38fe25"
   version "2.12.3"
 
   def install

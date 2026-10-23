@@ -1,9 +1,9 @@
 class TutorialStepper < Formula
   desc "Step a Markdown tutorial's commands into real shells"
   homepage "https://github.com/lambdasistemi/tutorial-stepper"
-  url "https://github.com/lambdasistemi/tutorial-stepper/releases/download/v0.3.1/tutorial-stepper-0.3.1-aarch64-darwin.tar.gz"
-  sha256 "dbce6c6baff15f2acaf2054708e6d0ef750e8880e1480ec833c3dbb9accd7d63"
-  version "0.3.1"
+  url "https://github.com/lambdasistemi/tutorial-stepper/releases/download/v0.4.0/tutorial-stepper-0.4.0-aarch64-darwin.tar.gz"
+  sha256 "c43c2a7e0362145157319ce3f272eb632ddc6d36f4e5fa31fabb3603915f12ae"
+  version "0.4.0"
   license "Apache-2.0"
 
   depends_on "tmux"

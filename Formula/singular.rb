@@ -1,9 +1,9 @@
 class Singular < Formula
   desc "Registry of unique keys on Cardano: singular, open-datum and a private development node"
   homepage "https://lambdasistemi.github.io/singular/"
-  url "https://github.com/lambdasistemi/singular/releases/download/v0.18.0/singular-0.18.0-aarch64-darwin.tar.gz"
-  sha256 "5dd300ee1f9635eb589ef93b5eba02fd6e1fcd97d7461dca52d3e89f1a2b1f71"
-  version "0.18.0"
+  url "https://github.com/lambdasistemi/singular/releases/download/v0.19.0/singular-0.19.0-aarch64-darwin.tar.gz"
+  sha256 "2f1ceece48359923ab4813b6a427fc89a44a4d913bc970d5319e133b917f933b"
+  version "0.19.0"
 
 
   def install
@@ -13,10 +13,10 @@ class Singular < Formula
 
   test do
     %w[singular open-datum devnet].each do |program|
-      assert_match "#{program} 0.18.0 (commit ", shell_output("#{bin}/#{program} --version")
+      assert_match "#{program} 0.19.0 (commit ", shell_output("#{bin}/#{program} --version")
     end
     assert_match "cardano-node", shell_output("#{libexec}/bin/cardano-node --version")
     assert_predicate libexec/"share/plutus.json", :exist?
-    assert_equal "0.18.0", (libexec/"share/version.txt").read.strip
+    assert_equal "0.19.0", (libexec/"share/version.txt").read.strip
   end
 end
